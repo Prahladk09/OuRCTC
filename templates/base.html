@@ -28,7 +28,7 @@
 {% block navbar %}
 <div class="w3-bar w3-white w3-border-bottom w3-xlarge">
     <a href="{% url 'book:home' %}" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><i
-                    class="fa fa-map-marker w3-margin-right"></i>OuRCTC</b></a>
+                    class="fa fa-map-marker w3-margin-right"></i>Redcan Trains</b></a>
     {% block logout %}
         {% if request.user != "AnonymousUser" %}
             <a class="w3-bar-item w3-button w3-text-red w3-hover-red" href="{% url 'accounts:logout' %}" style="float: right;">
